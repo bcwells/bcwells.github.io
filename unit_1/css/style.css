@@ -1,6 +1,10 @@
 body {
-	background-image: url("/unit_1/images/wfbackground.png");
+	background-image: url("https://raw.githubusercontent.com/bcwells/bcwells.github.io/master/unit_2/wfhomepage.png");
 	color: #fff;
+}
+
+background-image {
+	width: 100%;
 }
 
 h1 {
