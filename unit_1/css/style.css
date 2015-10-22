@@ -1,8 +1,15 @@
 body {
-	background-color: Azure;
+	background-color: #1b1321;
+	color: #fff;
 }
 
 h1 {
-	color: blue;
-	font-weight: 60%;
+	font-family: 'Open Sans';
+	font-size: 24px;
+	font-weight: 300; 
+}
+p {
+	font-family: 'Open Sans';
+	font-size: 12px;
+	font-weight: 300;
 }
