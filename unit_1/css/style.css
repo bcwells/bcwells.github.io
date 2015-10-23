@@ -1,9 +1,11 @@
 body {
-	background-image: url("https://github.com/bcwells/bcwells.github.io/blob/master/unit_1/images/wfhomepage.png?raw=true");
+	background-image: url("http://i.imgur.com/IqI6h80.png");
 	background-size: cover;
+	background-image-repeat: none; 
 	color: #fff;
 	text-transform: uppercase;
 	font-family: 'Open Sans';
+	margin: 0;
 }
 
 h1 {
@@ -24,31 +26,80 @@ header {
 	background-color: #1b1321;
 	z-index: 9999;
 }
-nav {
-	margin: auto;
-	position: fixed;
-	width: 100%;
-	font-family:'Open Sans'
-	font-size: 14px
-	font-weight: 300;
-	width: 100%;
-}
-ul {
+
+/*ul {
 	list-style-type: none;
-	margin: o
+	margin: 0 auto;
 	padding: 0;
+	overflow: hidden;
 }
 li {
 	display: inline;
 	float: left;
-	padding: 10px;
+	padding: 10px;*/
 }
-a {
-	display: block
-	width: 60px;
-	color: white;
-	text-decoration: none;
+a:link, a:visited {
+	display: block;
+    width: 120px;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #1b1321;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 a:hover {
-	font-weight: 600;
+	font-weight: 300;
+	color: #b1b1b1 ;
+	cursor: pointer;
+}
+div {
+	background-color: blue;
+}
+.menu {
+	background-color: red;
+	padding: 50 0 0 0;
+}
+.spacer {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: calc(50vh - 210px);
+	opacity: 0;
+}
+.container {
+	position: relative;
+	width: 100%;
+	background-color: #1b1321;
+	opacity: 0.5;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+}
+nav {
+
+}
+
+.nav{
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: #1b1321;
+    opacity: 0.5;
+}
+.nav li{
+    display:inline;
+    color: white;
+}
+.nav a{
+	text-decoration: none;
+    display:inline-block;
+    color: white;
+    padding:10px;
+}
+.nav a:hover{
+	color: #b1b1b1;
+	font-weight: 400;
 }
