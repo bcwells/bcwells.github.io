@@ -1,10 +1,9 @@
 body {
-	background-image: url("https://raw.githubusercontent.com/bcwells/bcwells.github.io/master/unit_2/wfhomepage.png");
+	background-image: url("https://github.com/bcwells/bcwells.github.io/blob/master/unit_1/images/wfhomepage.png?raw=true");
+	background-size: cover;
 	color: #fff;
-}
-
-background-image {
-	width: 100%;
+	text-transform: uppercase;
+	font-family: 'Open Sans';
 }
 
 h1 {
@@ -16,4 +15,40 @@ p {
 	font-family: 'Open Sans';
 	font-size: 12px;
 	font-weight: 300;
+}
+header {
+	position: fixed;
+	top: 0;
+	width: 100%
+	height: 90px;
+	background-color: #1b1321;
+	z-index: 9999;
+}
+nav {
+	margin: auto;
+	position: fixed;
+	width: 100%;
+	font-family:'Open Sans'
+	font-size: 14px
+	font-weight: 300;
+	width: 100%;
+}
+ul {
+	list-style-type: none;
+	margin: o
+	padding: 0;
+}
+li {
+	display: inline;
+	float: left;
+	padding: 10px;
+}
+a {
+	display: block
+	width: 60px;
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	font-weight: 600;
 }
