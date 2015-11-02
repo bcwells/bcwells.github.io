@@ -1,0 +1,31 @@
+body {
+	background-image: url("https://github.com/bcwells/bcwells.github.io/blob/master/unit_1/images/wfhomepage.png?raw=true");
+	background-size: cover;
+	color: #FFF;
+	font-family: "Open Sans";
+	text-align: center;
+	text-transform: uppercase;
+}
+h1 {
+	color: #FFF;
+	background-color: rgba(45,35,46,0.7);
+}
+p {
+	font-weight: 600;
+}
+#slogan {
+	font-style: italic;
+}
+a {
+	text-decoration: none;
+	color: rgb(45,35,46);
+}
+#email {
+	font-size: 12pxx;
+	font-weight: 100;
+	text-transform: lowercase;
+}
+ul {
+	text-align: center;
+	list-style-type: none;
+}
