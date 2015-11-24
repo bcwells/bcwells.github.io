@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Cantarell:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100);
+body {
+	background-image: url("https://github.com/bcwells/bcwells.github.io/blob/master/unit_1/images/wfhomepage.png?raw=true");
+	background-size: cover;
+	color: #FFF;
+	font-size: 15px;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	margin: 0;
+}
+h1 {
+	color: #FFF;
+	background-color: #FFED74;
+	font-family: 'Cantarell', sans-serif;
+	font-weight: 400;
+	font-size: 3em;
+	text-transform: uppercase;
+	margin: 0 0 0 0;
+}
+p {
+	font-weight: 300;
+	text-align: left;
+	margin: 20px;
+}
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+/*ul {
+	text-align: center;
+	list-style-type: none;
+	display: inline;
+	word-spacing: 20px;
+}
+ul li{
+	display: inline;
+	font-size: 1.5em;
+}
+footer {
+	background-color: #FF957E;
+	padding: 0.5em 0;
+	text-align: center;
+	margin: 0 auto;
+}
+#main {
+	color: #FFF;
+	position: absolute;
+	top: 300px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 1em 0;
+	background-color: #FFE2B8;
+	width: 100%;
+	margin: 0 0 280px 0;
+	height: 200px;
+}*/
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/*.nav {
+	background-color: #E8C66A;
+	font-family: 'Cantarell', sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #FFF;
+	padding: 1em;
+}*/
